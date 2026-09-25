@@ -1,158 +1,79 @@
-# \# Quiz Management System
+# Quiz Management System
 
-# 
+A console-based Quiz Management System developed in C++ as a second-semester academic project for BS Information Technology.
 
-# A console-based Quiz Management System developed in C++ as a second-semester academic project for BS Information Technology.
+The project was created to practice Object-Oriented Programming concepts, file handling, and basic user-management functionality.
 
-# 
+## Features
 
-# The project was created to practice Object-Oriented Programming concepts, file handling, and basic user-management functionality.
+### Admin
+- Admin login
+- Register students
+- View registered students
+- Delete students
+- Create quizzes
+- View quizzes
+- Delete quizzes
+- View student scores
 
-# 
+### Student
+- Student login
+- View available quizzes
+- Attempt quizzes
+- View quiz results
 
-# \## Features
+## Technologies Used
 
-# 
+- C++
+- Object-Oriented Programming
+- File Handling
+- Visual Studio
 
-# \### Admin
+## Project Structure
 
-# \- Admin login
+The application is divided into multiple classes and modules, including:
 
-# \- Register students
+- `Admin`
+- `Student`
+- `User`
+- `Menu`
+- `CreateQuiz`
+- `AttemptQuiz`
+- `DeleteQuiz`
+- `RegisterStudent`
+- `DeleteStudent`
+- `ViewStudents`
+- `ViewQuizzes`
+- `ViewScores`
+- `ViewResult`
 
-# \- View registered students
+## Data Storage
 
-# \- Delete students
+The project uses text files for basic data storage:
 
-# \- Create quizzes
+- `students.txt` — student information
+- `quizzes.txt` — quiz questions and answers
+- `scores.txt` — quiz results
 
-# \- View quizzes
+## How to Run
 
-# \- Delete quizzes
+1. Clone or download this repository.
+2. Open `Project OOPs.sln` in Microsoft Visual Studio.
+3. Build the project.
+4. Run the application from Visual Studio.
 
-# \- View student scores
+## Project Background
 
-# 
+This was developed as an academic project during my second semester of BS Information Technology.
 
-# \### Student
+The project was built as part of my learning process, with AI-assisted development used for portions of the implementation.
 
-# \- Student login
+## Status
 
-# \- View available quizzes
+Completed as a second-semester academic project.
 
-# \- Attempt quizzes
+## Author
 
-# \- View quiz results
+**Muhammad Anas Khan Farooq**
 
-# 
-
-# \## Technologies Used
-
-# 
-
-# \- C++
-
-# \- Object-Oriented Programming
-
-# \- File Handling
-
-# \- Visual Studio
-
-# 
-
-# \## Project Structure
-
-# 
-
-# The application is divided into multiple classes and modules, including:
-
-# 
-
-# \- `Admin`
-
-# \- `Student`
-
-# \- `User`
-
-# \- `Menu`
-
-# \- `CreateQuiz`
-
-# \- `AttemptQuiz`
-
-# \- `DeleteQuiz`
-
-# \- `RegisterStudent`
-
-# \- `DeleteStudent`
-
-# \- `ViewStudents`
-
-# \- `ViewQuizzes`
-
-# \- `ViewScores`
-
-# \- `ViewResult`
-
-# 
-
-# \## Data Storage
-
-# 
-
-# The project uses text files for basic data storage:
-
-# 
-
-# \- `students.txt` — student information
-
-# \- `quizzes.txt` — quiz questions and answers
-
-# \- `scores.txt` — quiz results
-
-# 
-
-# \## How to Run
-
-# 
-
-# 1\. Clone or download this repository.
-
-# 2\. Open `Project OOPs.sln` in Microsoft Visual Studio.
-
-# 3\. Build the project.
-
-# 4\. Run the application from Visual Studio.
-
-# 
-
-# \## Project Background
-
-# 
-
-# This was developed as an academic project during my second semester of BS Information Technology.
-
-# 
-
-# The project was built as part of my learning process, with AI-assisted development used for portions of the implementation.
-
-# 
-
-# \## Status
-
-# 
-
-# Completed as a second-semester academic project.
-
-# 
-
-# \## Author
-
-# 
-
-# \*\*Muhammad Anas Khan Farooq\*\*
-
-# 
-
-# BS Information Technology
-
+BS Information Technology
